@@ -4,7 +4,7 @@ Develop a comprehensive report for the following exercises:
 
 ## What is Generative AI?
 
-![image](https://github.com/user-attachments/assets/e9454929-b412-4e8a-9ecc-4a1090a34361)
+<img width="1100" height="550" alt="image" src="https://github.com/user-attachments/assets/97227420-8597-4dcf-a126-862dcf123558" />
 
 Generative AI refers to artificial intelligence systems capable of creating new content such as text, images, audio, and video.
 These models are trained on vast datasets and learn to identify patterns, structures, and relationships within the data.
@@ -14,7 +14,7 @@ It includes applications like language models (e.g., GPT), image generators (e.g
 ##  Foundational Concepts of Generative AI
 Generative AI is a branch of artificial intelligence focused on creating new content such as text, images, audio, and video. It works by learning patterns from existing data and generating outputs that resemble real data. The foundational concepts include unsupervised learning, probabilistic models, and neural networks, especially deep learning. Techniques such as Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and autoregressive models form the basis for content generation. These models learn the underlying structure and semantics of data, enabling them to create high-quality, realistic outputs.
 
-![image](https://github.com/user-attachments/assets/97d12ed8-91d1-4b28-92f6-c9161ded3296)
+<img width="1000" height="420" alt="image" src="https://github.com/user-attachments/assets/86868a1a-8d1b-4d93-8dfc-44f893e27945" />
 
 ## Generative AI Architectures (like Transformers)
 Among the most significant advancements in Generative AI is the transformer architecture. Introduced in the "Attention is All You Need" paper, transformers rely on self-attention mechanisms to process input data in parallel rather than sequentially. This enables better contextual understanding and scalability. Transformer-based models like GPT (Generative Pre-trained Transformer), BERT (Bidirectional Encoder Representations from Transformers), and T5 (Text-to-Text Transfer Transformer) have set new standards in natural language understanding and generation. These architectures can handle large-scale datasets efficiently and produce human-like outputs, which has driven their widespread adoption in modern AI systems.
