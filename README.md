@@ -24,15 +24,48 @@ Among the most significant advancements in Generative AI is the transformer arch
 # Types of Generative AI Models
 Generative AI encompasses various model types based on their application domain:
 
-Text Generation Models: GPT (Generative Pre-trained Transformer), BERT, T5.
+## Text Generation Models: 
+### GPT (Generative Pre-trained Transformer):
+Initially showcased its potential for generating task-specific natural language through unsupervised pre-training and fine-tuning for downstream tasks. It utilizes transformer-decoder layers for next-word prediction and coherent text generation. Fine-tuning is used to adapt it to a specific task based on pre-training.
+### BERT from google: 
+One of Google's most influential LLMs released in 2018 is BERT. BERT is an abbreviation for Bidirectional Encoder Representations from Transformers, which contains 340 million parameters. BERT, which is constructed based on the transformer framework, leverages bidirectional self-attention to acquire knowledge from extensive volumes of textual data. With its capabilities, BERT is proficient in executing diverse natural language tasks such as text classification, sentiment analysis, and named entity recognition. Additionally, BERT is widely used as a pre-trained model for fine-tuning specific downstream tasks and domains.
+### LLaMA from Meta:
+Meta, formerly known as Facebook, has recently announced a new LLM in 2023. The LLM is called LLaMA, which stands for Large Language Model for Meta Applications, and comes with 600 billion parameters. LLaMA has been trained on various data sources, including social media posts, web pages, books, news articles, and more. Its purpose is to support various Meta applications such as content moderation, search, recommendation, and personalization. LLaMA claims to be more ethical by incorporating human feedback, fairness, and transparency in its training. 
 
-Image Generation Models: GANs (Generative Adversarial Networks), VAEs (Variational Autoencoders), DALL-E, Stable Diffusion.
+## Image Generation Models:
+### GANs (Generative Adversarial Networks):
+Think of GANs as a duo: a "creator" AI and a "critic" AI. The creator makes an image (e.g., a face), and the critic tries to tell if it's a real photo or a fake. They compete against each other, forcing the creator to get incredibly good at making realistic-looking images.
+### VAEs (Variational Autoencoders):
+A VAE learns to create images by first squishing an image down into a simple code and then trying to rebuild it perfectly. By mastering this process, it learns the essential features of what makes up an image (like what makes a cat look like a cat). It can then use this knowledge to generate new, original images.
 
-Audio Generation Models: WaveNet, Jukebox.
+### DALL-E:
+DALL-E is an AI that turns your words into pictures. You can type in a wild description like "an avocado armchair" or "a robot painting a masterpiece," and it will generate a unique image based on your prompt. It's a powerful tool for visual creativity.
+### Stable Diffusion:
+This is another popular text-to-image model. It works by starting with a patch of random noise and slowly refining it, step-by-step, into a picture that matches your text description. It's known for being quite efficient and has been widely adopted by artists and developers.
 
-Video Generation Models: GAN-based video generators, RunwayML.
 
-Code Generation Models: Codex, CodeT5, AlphaCode.
+## Audio Generation Models: 
+### WaveNet:
+WaveNet generates incredibly realistic human-sounding audio, one sample at a time. This detailed approach is why the voices in many digital assistants (like Google Assistant) sound so smooth and natural instead of robotic.
+
+### Jukebox:
+Jukebox is an AI model from OpenAI that can generate new music, complete with vocals and lyrics. It can create original songs in the style of different artists and genres, making it a fascinating tool for musical exploration.
+
+##Video Generation Models: 
+### GAN-based video generators:
+These models apply the same "creator vs. critic" idea from image GANs to generate short video clips. They learn not only what things should look like but also how they should move and change over time. This is how they create brief, realistic-looking videos from scratch.
+### RunwayML:
+RunwayML is less of a single model and more of a creative toolkit or platform for artists. It provides easy access to a wide range of pre-trained generative models, including those for video, making it simple for people without a coding background to experiment with AI.
+
+## Code Generation Models: 
+### Codex:
+Codex is the AI brain behind tools like GitHub Copilot. It was trained on a massive amount of code from the internet and can write code for you. You can describe what you want in plain English, and it will generate the programming instructions to make it happen.
+
+### CodeT5:
+Similar to the T5 model for text, CodeT5 is a versatile model for programming tasks. It's great at translating code from one language to another (like Python to Java), summarizing what a block of code does, and even helping to find and fix bugs.
+
+### AlphaCode:
+Developed by DeepMind, AlphaCode is an AI designed to tackle competitive programming challenges. It can understand complex problem descriptions and then write its own clever, working solutions from scratch, performing at a level that rivals skilled human programmers.
 
 ![image](https://github.com/user-attachments/assets/1d9ab721-c67e-43f8-89d2-71def21254e2)
 
@@ -52,6 +85,8 @@ LLMs have billions of parameters and are capable of tasks such as translation, s
 Examples include OpenAI’s GPT series, Google’s BERT, and Meta’s LLaMA.
 
 # Architecture of LLMs
+<img width="930" height="802" alt="image" src="https://github.com/user-attachments/assets/d1fe91f1-334a-49af-85ee-3f03812f1638" />
+
 The architecture of LLMs is predominantly based on transformers.
 A transformer consists of encoder and decoder blocks that use self-attention mechanisms to process input data.
 Key components of transformer architecture include:
